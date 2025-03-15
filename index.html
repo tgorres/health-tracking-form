@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Form</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        margin-left: 50px;
+        padding: 0;
+        color: #333;
+        background-color: antiquewhite;
+    }
+</style>
+<body>
+    <header>
+        <h1>Health Form</h1>
+    </header>
+    <main>
+        <form action=”results.html” methods=”GET”>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            Gender
+            <div>
+                <label for="agender">Agender</label>
+                <input type="radio" name="gender" id="agender">
+            </div>
+            <div>    
+                <label for="Bigender">Bigender</label>
+                <input type="radio" name="gender" id="bigender">
+            </div>
+            <div>    
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+            <div>    
+                <label for="genderfluid">Genderfluid</label>
+                <input type="radio" name="gender" id="genderfluid">
+            </div>
+            <div>    
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+            </div>
+            <div>    
+                <label for="nonbinary">Nonbinary</label>
+                <input type="radio" name="gender" id="nonbinary">
+            </div>
+            <div>    
+                <label for="other">Other</label>
+                <input type="radio" name="gender" id="other">
+            </div>    
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="1" max="200" step="1" required>
+            </div>
+            <div>
+                <label for="birthdate">Birthdate</label>
+                <input type="date" name="birthdate" id="birthday" required>
+            </div>
+            <div>
+                <label for="currentDate">Current Date</label>
+                <input type="date" name="currentDate" id="currentDate" required>
+            </div>
+            <div>
+                <label for="height">Height</label>
+                <input type="text" name="height" id="height" required placeholder="0 foot 0 inches">
+            </div>
+            <div>
+                <label for="weight">Weight</label>
+                <input type="text" name="weight" id="weight" required placeholder="0 lbs">
+            </div>
+            <div>
+                <label for="bloodPressure">Blood Pressure</label>
+                <input type="text" name="bloodPressure" id="bloodPressure" placeholder="0/0">
+            </div>
+            <div>
+                <label for="pulse">Pulse</label>
+                <input type="number" name="pulse" id="pulse" min="1" max="300" step="1">
+            </div>
+            <div>
+                <label for="mood">Today's Mood</label>
+                <input type="text" name="mood" id="mood" placeholder="happy">
+            </div>
+            <div>
+                <label for="notes">Notes</label>
+                <textarea name="notes" id="notes"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset"> Reset</button>
+            </div>    
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
