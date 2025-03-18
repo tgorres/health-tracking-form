@@ -13,7 +13,6 @@ if (window.location.pathname.includes('results.html')) {
     const bloodPressure = urlParams.get('bloodPressure');
     const pulse = urlParams.get('pulse');
     const mood = urlParams.get('mood');
-    
 
     const resultsDiv = document.getElementById('results');
 
